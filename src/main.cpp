@@ -17,7 +17,7 @@ void setup()
 	lcd.setCursor(2, 1);
 	lcd.print("Stem Shield");
 	delay(4000);
-	lcd.clear();
+	lcd.clear()
 }
 
 void loop()
