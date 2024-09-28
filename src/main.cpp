@@ -13,9 +13,9 @@ void setup()
 	DHT.read11(outPin);
 
 	lcd.setCursor(2, 0);
-	lcd.print("Arduino Nano");
-	lcd.setCursor(0, 1);
-	lcd.print("Embedded/IoT PACK");
+	lcd.print("Embedded/IoT");
+	lcd.setCursor(2, 1);
+	lcd.print("Stem Shield");
 	delay(4000);
 	lcd.clear();
 }
